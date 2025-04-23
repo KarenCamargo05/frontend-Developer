@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root {
+            --white: #ffffff;
+            --black: #000000;
+            --very-light-pink: #c7c7c7;
+            --text-input-field: #f7f7f7;
+            --hospital-green: #410445;
+        }
+
+        body {
+            background: linear-gradient(to right, #F7CFD8, #A6D6D6, #8E7DBE);
+            font-family: "Quicksand", sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        a {
+            font-size: 3em; /* Agranda el texto */
+            text-decoration: none; /* Quita la línea debajo del enlace */
+            color: var(--black);
+        }
+
+        ul {
+            list-style: none; /* Quita el punto de lista */
+            padding: 0;
+            margin: 0;
+        }
+
+        .title:hover {
+            border: 1px solid var(--hospital-green);
+            color: var(--hospital-green);
+        }
+
+        .logo {
+            position: absolute; /* Permite posicionar libremente el logo */
+            top: 300px; /* Ajusta la posición hacia abajo */
+            right: 20px; /* Posiciona hacia la derecha */
+            width: 300px; /* Establece el tamaño del logo */
+            height: 300px; /* Establece el tamaño del logo */
+            border-radius: 50%; /* Hace que el logo sea redondo */
+            overflow: hidden; /* Asegura que el contenido se recorte a la forma */
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajusta la imagen al contenedor redondo */
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="./logos/logo_kedulces.jpg" alt="logo">
+    </div>
+    <nav class="title">
+        <ul>
+            <li><a href="file:///C:/Users/karen%20Camargo/Desktop/frontend-Developer-1/class-1.html">𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊𝙎 ➤</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
